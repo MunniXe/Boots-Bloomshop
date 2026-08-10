@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .text-custom {
+            color:  #ffc107;
+        }
+        .footer-link {
+            text-decoration: none;
+            color: #6c757d;
+        }
+        .footer-link:hover {
+            color: black;
+        }
+        .col-md-4 .card {
+            transition: transform 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1);
+            will-change: transform;
+        }
+
+        .col-md-4 .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="border-bottom py-3 px-4 d-flex align-items-center justify-content-between shadow-lg sticky-top bg-white">
+      <div class="d-flex align-items-center gap-4">
+        <span class="fw-bold fs-4">BLOOM<span class="text-custom">SHOP</span></span>
+        <a href="#" class="text-decoration-none text-secondary fw-semibold">Contact</a>
+      </div>
+
+      <div class="position-relative w-50" style="max-width: 400px;">
+        <input type="text" class="form-control rounded-pill ps-4" placeholder="Search products..."/>
+      </div>
+
+      <div class="d-flex align-items-center gap-4">
+        <a href="#" class="text-decoration-none text-dark fw-semibold"><i class="bi bi-cart"></i></a>
+        <a href="#" class="text-decoration-none text-dark fw-semibold">Sign In</a>
+        <a href="#" class="btn btn-warning rounded-pill px-3 fw-semibold">Sign Up</a>
+      </div>
+    </nav>
+
+    <section class="container py-5">
+        <div class="text-center mb-5">
+            <h1 class="display-6 fw-bold text-custom">Step Into Style</h1>
+            <p class="text-muted mx-auto" style="max-width: 600px;">Discover our latest collection of premium sneakers comfort, design, and performance in every pair.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4">
+                    <img src="https://m.media-amazon.com/images/I/71XNTZ4qjuL._AC_SX500_.jpg" class="card-img-top rounded-top-4 object-fit-contain" height="400px" alt="AirFlex Runner">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="card-title fw-bold">AirFlex Runner</h6>
+                        <p class="fw-bold mb-3">$89.00</p>
+                        <button class="btn btn-warning w-100 rounded-pill"><i class="bi bi-cart me-2"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4">
+                    <img src="https://m.media-amazon.com/images/I/61rIhLRs3oL._AC_UL320_.jpg" class="card-img-top rounded-top-4 object-fit-contain" height="400px" alt="Urban Street Pro">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="card-title fw-bold">Urban Street Pro</h6>
+                        <p class="fw-bold mb-3">$99.00</p>
+                        <button class="btn btn-warning w-100 rounded-pill"><i class="bi bi-cart me-2"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4">
+                    <img src="https://imgs.search.brave.com/5SN33j_Ni_U-d_Mn8FHmO8-yuV6eTasFnxPvmqoNkPM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFQUFRZY0ZHb0wu/anBn" class="card-img-top rounded-top-4 object-fit-contain" height="400px" alt="Classic Court 90s">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="card-title fw-bold">Classic Court 90s</h6>
+                        <p class="fw-bold mb-3">$79.00</p>
+                        <button class="btn btn-warning w-100 rounded-pill"><i class="bi bi-cart me-2"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4">
+                    <img src="https://imgs.search.brave.com/s8va6EH4NQbn6GMSNOMAGWN_UtDxU12G5v15pRdEj5Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3RvY2t4LmNv/bS8zNjAvTmlrZS1W/YXBvci1FZGdlLVNo/YXJrLVZvbHQvSW1h/Z2VzL05pa2UtVmFw/b3ItRWRnZS1TaGFy/ay1Wb2x0L0x2Mi9p/bWcwMS5qcGc_dz01/NzYmcT02MCZkcHI9/MSZ1cGRhdGVkX2F0/PTE2OTc0NjY0NjIm/aD0zODQ" class="card-img-top rounded-top-4 object-fit-cover" height="400px" alt="Volt Edge">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="card-title fw-bold">Volt Edge</h6>
+                        <p class="fw-bold mb-3">$119.00</p>
+                        <button class="btn btn-warning w-100 rounded-pill"><i class="bi bi-cart me-2"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4">
+                    <img src="https://imgs.search.brave.com/kALespSFmIsOc9O6yq3i4sz5RCgPXTz4_VP1kuVUd44/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly96ZXJv/LWZvb3R3ZWFyLmNv/bS9jZG4vc2hvcC9m/aWxlcy9CbGFja185/MDB4OTAwXzU1NDEx/ZmE5LWNlZGItNGZl/Ny04NGFjLTViN2U2/YzdhZDBiYS53ZWJw/P3Y9MTc2MjE1NDUz/NCZ3aWR0aD0xMjgw" class="card-img-top rounded-top-4 object-fit-contain" height="400px" alt="Zenith Flow">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="card-title fw-bold">Zenith Flow</h6>
+                        <p class="fw-bold mb-3">$129.00</p>
+                        <button class="btn btn-warning w-100 rounded-pill"><i class="bi bi-cart me-2"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4">
+                    <img src="https://imgs.search.brave.com/RmLRBpXNemSIWvK-qqCzv7OAfEjWChMkRCxjL9UnrOQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFCOXNmQzRVRkwu/anBn" class="card-img-top rounded-top-4 object-fit-contain" height="400px" alt="Street Vibe Low">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="card-title fw-bold">Street Vibe Low</h6>
+                        <p class="fw-bold mb-3">$69.00</p>
+                        <button class="btn btn-warning w-100 rounded-pill"><i class="bi bi-cart me-2"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4">
+                    <img src="https://imgs.search.brave.com/6ZxZjTkbP7GaeTwdUCgCbmE3Hd82AfSH7EbW0w8JgfA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFEU0lUVjNLUEwu/anBn" class="card-img-top rounded-top-4 object-fit-contain" height="400px" alt="Nova Horizon">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="card-title fw-bold">Nova Horizon</h6>
+                        <p class="fw-bold mb-3">$109.00</p>
+                        <button class="btn btn-warning w-100 rounded-pill"><i class="bi bi-cart me-2"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4">
+                    <img src="https://imgs.search.brave.com/JwusZ6DUZaC2c08e0dFQlSys1428d8j_6SMLAzQapTY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuZnRzaHAuZGln/aXRhbC9pbWcvcC80/LzcvMi85LzIvNy80/NzI5MjcuanBn" class="card-img-top rounded-top-4 object-fit-contain" height="400px" alt="Pulse React">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="card-title fw-bold">Pulse React</h6>
+                        <p class="fw-bold mb-3">$99.00</p>
+                        <button class="btn btn-warning w-100 rounded-pill"><i class="bi bi-cart me-2"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4">
+                    <img src="https://imgs.search.brave.com/C5zM9BlkZEQDgaLahxUfMra66e_h6lAy_2XiWxvLay8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFtYy1UQUxSTkwu/anBn" class="card-img-top rounded-top-4 object-fit-contain" height="400px" alt="Core Street Retro">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="card-title fw-bold">Core Street Retro</h6>
+                        <p class="fw-bold mb-3">$85.00</p>
+                        <button class="btn btn-warning w-100 rounded-pill"><i class="bi bi-cart me-2"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5 text-center border-top">
+        <h4 class="fw-bold">Stay in the loop</h4>
+        <p class="text-muted mb-4">Subscribe to our newsletter for exclusive offers, new arrivals, and style inspiration.</p>
+        <div class="input-group mx-auto" style="max-width: 500px;">
+            <input type="email" class="form-control rounded-pill shadow-sm" placeholder="Enter your email">
+            <button class="btn btn-warning rounded-4 mx-3 shadow-sm" type="button"><i class="bi bi-arrow-right px-1"></i></button>
+        </div>
+    </section>
+
+    <footer class="container mt-4 border-top">
+            <div class="row g-4 mt-4">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold fs-4 mb-3">
+                        BLOOM<span class="text-custom">SHOP</span>
+                    </h5>
+                    <p class="text-muted small mb-3">Discover unique products that inspire your lifestyle. Quality craftsmanship meets modern design.</p>
+                    <ul class="list-unstyled text-muted small">
+                        <li class="mb-2"><i class="bi bi-geo-alt-fill text-custom me-2"></i>123 Fashion Street, Style City, SC 12345</li>
+                        <li class="mb-2"><i class="bi bi-telephone-fill text-custom me-2"></i>+1 (555) 123-4567</li>
+                        <li class="mb-2"><i class="bi bi-envelope-fill text-custom me-2"></i>hello@bloomshop.com</li>
+                    </ul>
+                    <div class="d-flex gap-3 mt-3">
+                        <a href="#" class="text-muted"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-muted"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-muted"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-muted"><i class="bi bi-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">SHOP</h6>
+                    <ul class="list-unstyled text-muted small">
+                        <li class="mb-2"><a href="#" class="footer-link">All Products</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">New Arrivals</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Sale</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Featured</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">CUSTOMER CARE</h6>
+                    <ul class="list-unstyled text-muted small">
+                        <li class="mb-2"><a href="#" class="footer-link">Contact Us</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Help Center</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Shipping Info</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Returns & Exchanges</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">COMPANY</h6>
+                    <ul class="list-unstyled text-muted small">
+                        <li class="mb-2"><a href="#" class="footer-link">About Us</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Careers</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Blog</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Press</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-3">LEGAL</h6>
+                    <ul class="list-unstyled text-muted small">
+                        <li class="mb-2"><a href="#" class="footer-link">Privacy Policy</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Terms & Conditions</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Cookie Policy</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
